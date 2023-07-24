@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+    <meta charset="UTF-8">
+    <meta name="og:image" content="https://i.ibb.co/DQvdZQV/128-SMPLFRKS.png"/>
+    <link rel="icon" href="https://i.ibb.co/DQvdZQV/128-SMPLFRKS.png">
+<title>SMPL LOTTERY</title>
+    <link rel="stylesheet" href="style.css">
+    <br>
+</head>
+<body>
+<h1>🧾👾 SMPL  LOTTERY 👾🧾</h1>
+
+</body>
+</html>
+ 
+  <h5 id="displayDateTime"></h5>
+</body>
+  <script type="text/javascript">
+  var today = new Date();
+  var day = today.getDay();
+  var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  var dateTime = date+' '+time;
+
+   
+  document.getElementById("displayDateTime").innerHTML = dateTime + ' <br> Day :- ' + daylist[day];
+ 
+  </script>
+</html>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+</script>
+</html>
+
+<div>
+    <script>
+    let lotto = [];
+    while (lotto.length < 9) {
+        let num = parseInt(Math.random() * 45 + 1);
+        if (lotto.indexOf(num) === -1) {
+            lotto.push(num);
+        }
+    }
+    lotto.sort((a, b) => a - b);
+    document.write("<div class='ball ball1'>" + lotto[0] + "</div>");
+    document.write("<div class='ball ball2'>" + lotto[1] + "</div>");
+    document.write("<div class='ball ball3'>" + lotto[2] + "</div>");
+    document.write("<div class='ball ball4'>" + lotto[3] + "</div>");
+    </script>
+
+<div>
+<br>
+<br>
+
+
+</body>
+
+</script>
+
+<html>
+<head>
+
+  <title>Display Current Date and Time in Html using Javascript</title>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Take Screenshot using JavaScript</title>
+    <!-- Imported html2canvas library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+
+  </p>
+   
+    <button>💾 Download Ticket</button>
+    <br><br>
+    
+    <p>1️⃣ Pick up your lottery ticket every Friday.<br>
+      <br>
+      2️⃣ Post it in our lottery channel.<br>
+      <br>
+      3️⃣ Winning numbers drawn during Twitter Spaces.<br>
+    
+        
+    
+
+    <!-- Paste the script codes here -->
+
+<script>
+  const srcElement = document.querySelector("body"),
+  btns = document.querySelectorAll("button");
+
+  btns.forEach(btn => { // looping through each btn
+    // adding click event to each btn
+    btn.addEventListener("click", () => {
+      // creating canvas of element using html2canvas
+      html2canvas(srcElement).then(canvas => {
+        // adding canvas/screenshot to the body
+        if(btn.id === "take-src-only") {
+          return document.body.appendChild(canvas);
+        }
+
+        // downloading canvas/screenshot
+        const a = document.createElement("a");
+        a.href = canvas.toDataURL();
+        a.download = "SMPLLOTTERYTICKET.jpg";
+        a.click();
+      });
+    });
+  });
+</script>
+
+<br>
+    <a href="#"
+
+
+    >SMPLFRKS.IO</a>
+    <br>

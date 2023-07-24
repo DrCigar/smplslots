@@ -1,0 +1,117 @@
+
+.ball {
+    
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    font-size: 20px;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: 500;
+    text-align: middle;
+    text-align: center;
+    vertical-align: center;
+    text-shadow: 0px 0px 3px rgba(73, 57, 0, .8);
+    margin: auto;
+    font:monospace;
+    
+}
+
+.ball1 {
+    background: #9370DB;
+   
+}
+.ball2 {
+    background: #69c8f2;
+    
+}
+.ball3 {
+    background: #FF7F50;
+    
+}
+.ball4 {
+    background: #00BFFF;
+    
+}
+.ball5 {
+    background: #b0d840;
+}
+.ball6 {
+    background: #69c8f2;
+}
+.ball7 {
+    background: #9370DB;
+}
+.ball8 {
+    background: #FF7F50;
+}
+.ball9 {
+    background: #9370DB;
+}
+
+
+header {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+
+}
+
+
+
+
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  padding: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  cursor: crosshair;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(-45deg, #66eac9, #3ef1f4, #6f42f5, #f5da42);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 100vh;
+  padding-bottom: 30px;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+@keyframes color-change {
+  0% {
+    background-color: ##66eac9;
+  }
+  25% {
+    background-color: #3ef1f4;
+  }
+  40% {
+    background-color: #9370DB;
+  }
+  60% {
+    background-color: #FFA500;
+  }
+  80% {
+    background-color: #7FFFD4;
+  }
+  100% {
+    background-color: #00FFFF;
+  }
+
+
